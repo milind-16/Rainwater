@@ -13,7 +13,7 @@ import com.water.app.model.Response;
 public class TradeController {
 	
 	/**
-	 * Fetches all active accounts jett3
+	 * Fetches all active accounts
 	 * @return
 	 */
 	@GetMapping(value = "/get_all_accounts")

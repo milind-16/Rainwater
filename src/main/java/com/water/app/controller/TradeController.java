@@ -12,6 +12,10 @@ import com.water.app.model.Response;
 @RestController
 public class TradeController {
 	
+	/**
+	 * Fetches all active accounts
+	 * @return
+	 */
 	@GetMapping(value = "/get_all_accounts")
 	public Response<List<Account>> getAllAccounts(){
 		List<Account> allAccounts = new ArrayList<Account>();
